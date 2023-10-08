@@ -1,0 +1,27 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#tic-tac-toe-board {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin-top: 20px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+#restart-button {
+    margin-top: 20px;
+    font-size: 18px;
+}
